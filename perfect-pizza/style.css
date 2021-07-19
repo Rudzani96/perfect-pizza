@@ -1,0 +1,61 @@
+body {
+    background-color:cornsilk;
+}
+
+
+
+.pizza {
+    /* box-model */
+    border: 5px solid;
+    padding: 1em;
+    margin: 1em;
+    /* margin-left: 0em */
+    margin-bottom: 0.5em;
+    border-radius: 0.5em;
+    
+   /* use display : inline-block */
+
+    /* width: 20em;
+    display: inline-block;
+    min-height: 10em; 
+    */
+}
+
+
+.medium_pizza {
+    background-color: darkorange; 
+    flex: 1
+}
+
+.large_pizza {
+    background-color: greenyellow;
+    flex: 1
+
+}
+
+.small_pizza {
+    background-color: hotpink;
+    flex: 1
+}
+
+.contact_us {
+    background-color: lightblue;
+}
+
+@media (min-width: 760px) {
+/* apply this css if the page is wider than 760px */
+    /* body {
+        background-color:cornflowerblue;
+    } */
+}
+
+
+@media (min-width: 960px) {
+/* apply this css if the page is wider than 960px */
+  /*  body {
+        background-color:#FFF;
+    } */
+    .pizzas {
+        display: flex;
+    }
+}

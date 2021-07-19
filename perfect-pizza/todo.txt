@@ -1,0 +1,6 @@
+* put the pizza in smaller boxes
+* add some pictures
+* move the pizza text to the center
+* add space around the pizza text 
+* add rounded border to the pizza blocks
+* look at the pizza text
